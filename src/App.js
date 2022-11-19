@@ -1,18 +1,18 @@
-// import logo from './logo.svg';
+import react from 'react'
 import './App.css';
 import Navbar from './Components/Navbar';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           <h1>MALVIN OPONDO</h1>
           <h2> Welcome to my Space!</h2>
-          <p> A FullStack Developer...
-            Good design makes a statement, ad that's what sets me apart. My mediums are as bold, loud and proud.
-          </p>
+          <p><bold>A FULLSTACK DEVELOPER...</bold><br></br>
+            Good design makes a statement that's what sets me apart.<br></br>
+            My mediums are bold, loud and proud.</p>
         </p>
       </header>
     </div>
