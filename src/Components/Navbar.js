@@ -32,8 +32,8 @@ function Navbar(){
                 <p>I am a Frontend Developer and Designer. <br></br>
                     I like dabbling in various parts of frontend development and like to learn about new tehnologies. 
                     <br></br>During my free time i love to search for inspiration of designs on Pinterest, Dribble.
-                     I also enjoy travelling and meeting new people.
-                    </p>
+                    I also enjoy travelling and meeting new people.
+                </p>
             </div>
         </div>
     )    
