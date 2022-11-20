@@ -1,9 +1,11 @@
 import react from 'react'
+import "./Navbar.css"
 
 
 function Navbar(){
     return(
         <div className='App'>
+            <div>
             <nav>
                 <a href= "index.html">
                 <svg id="logo-16" width="109" height="43" viewBox="0 0 109 43" fill="none"
@@ -14,14 +16,25 @@ function Navbar(){
                  <path d="M64.9831 11.433C67.726 8.6898 70.983 6.5138 74.567 5.0292C78.151 3.5446 81.993 2.7805 85.872 2.7805C89.752 2.7805 93.593 3.5446 97.177 5.0292C100.761 6.5138 104.018 8.6898 106.761 11.433L85.872 32.3221L64.9831 11.433Z" class="ccustom" fill="#1F84EF"></path> </svg>
                 </a>
                 <div>
-                    <ul>
+                    <ul id='navbar'>
                         <li><a href='#'>Home</a></li>
                         <li><a href='#'>About</a></li>
-                        <li><a href='#'>Projects</a></li>
+                        <li ><a href='#'>Projects</a></li>
                         <li><a href='#'>Contact</a></li> 
                     </ul>   
                 </div>
             </nav>
+            </div>
+            <div>
+                <h1><bold>MALVIN OPONDO.</bold></h1>
+                <p> Welcome to my Space!</p>
+                <h1>A FullStack Developer</h1>
+                <p>I am a Frontend Developer and Designer. <br></br>
+                    I like dabbling in various parts of frontend development and like to learn about new tehnologies. 
+                    <br></br>During my free time i love to search for inspiration of designs on Pinterest, Dribble.
+                     I also enjoy travelling and meeting new people.
+                    </p>
+            </div>
         </div>
     )    
 };
