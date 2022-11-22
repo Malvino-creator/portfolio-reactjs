@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Home() {
+
+function About() {
   return (
     <div>
          <div>
@@ -17,4 +18,4 @@ function Home() {
   )
 }
 
-export default Home
+export default About
