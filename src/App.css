@@ -1,9 +1,12 @@
-app{
+#about{
   align-items: center;
+  justify-content:space-between;
+  padding: 70px;
+  text-align: center;
+  
 }
 nav{
   display: flex;
-  align-items: center;
   justify-content: space-between;
   background-color: #1b2430;
   padding: 20px 80px;

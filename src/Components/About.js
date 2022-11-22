@@ -4,7 +4,7 @@ import React from 'react'
 function About() {
   return (
     <div>
-         <div>
+         <div id='about'>
             <h1><bold>MALVIN OPONDO.</bold></h1>
                 <p> Welcome to my Space!</p>
                 <h1>A FullStack Developer</h1>
