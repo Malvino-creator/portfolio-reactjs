@@ -30,10 +30,10 @@ box-shadow: 0 5px rgba(0,0,0,0.06);
 content:"";
 width: 50%;
 height: 2px;
-background: yellow;
+background: #179717;
 position: absolute;
 bottom: 0px;
-left: 14px;
+left: 1px;
 }
 
 #navbar li a:hover{

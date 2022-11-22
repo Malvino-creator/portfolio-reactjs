@@ -1,10 +1,9 @@
 import react from 'react'
-import "./Navbar.css"
 
 
 function Navbar(){
     return(
-        <div className='App'>
+        <div className='Nav'>
             <div>
             <nav>
                 <a href= "index.html">
@@ -24,16 +23,6 @@ function Navbar(){
                     </ul>   
                 </div>
             </nav>
-            </div>
-            <div>
-                <h1><bold>MALVIN OPONDO.</bold></h1>
-                <p> Welcome to my Space!</p>
-                <h1>A FullStack Developer</h1>
-                <p>I am a Frontend Developer and Designer. <br></br>
-                    I like dabbling in various parts of frontend development and like to learn about new tehnologies. 
-                    <br></br>During my free time i love to search for inspiration of designs on Pinterest, Dribble.
-                    I also enjoy travelling and meeting new people.
-                </p>
             </div>
         </div>
     )    
