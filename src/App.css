@@ -1,8 +1,16 @@
+#background{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    min-height: 750px;
+}
+
 #about{
   align-items: center;
   justify-content:space-between;
-  padding: 70px;
+  padding: 100px;
   text-align: center;
+  color: aliceblue;
   
 }
 nav{
@@ -36,14 +44,12 @@ nav{
   content:"";
   width: 50%;
   height: 2px;
-  background: #179717;
   position: absolute;
   bottom: 0px;
   left: 1px;
   }
   
   #navbar li a:hover{
-      color: aqua;
+      color: white;
       transition: 0.3s ease-in-out;
-  
   }
