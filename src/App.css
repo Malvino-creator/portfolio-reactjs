@@ -2,16 +2,17 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
-    min-height: 750px;
+    min-height: 800px;
 }
-
 #about{
   align-items: center;
-  justify-content:space-between;
-  padding: 100px;
+  justify-content:space-around;
+  padding: 200px;
   text-align: center;
   color: aliceblue;
-  
+  font-size: large;
+  font-weight: 500;
+
 }
 nav{
   display: flex;
